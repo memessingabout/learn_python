@@ -1,0 +1,10 @@
+snake case
+
+learn_python_today ----> snake casing
+
+
+camel casing
+
+learnPython
+
+
