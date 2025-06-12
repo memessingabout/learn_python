@@ -1,17 +1,20 @@
 """ Day 9: Working with Lists """
 
+
+
 # COMPREHENSIVE GUIDE TO PYTHON LISTS
 
 # 1. Creating Lists
 fruits = ["apple", "banana", "cherry"]
 numbers = [1, 2, 3, 4, 5]
-mixed = [1, "hello", 3.14, True]
+mixed = [1, "hello", 3.14, True]  #Boolean
 empty_list = []
 list_from_range = list(range(5))  # [0, 1, 2, 3, 4]
 
 print("Original fruits:", fruits)
 print("Mixed data types:", mixed)
 print("List from range:", list_from_range)
+
 
 # 2. Accessing Elements (Indexing)
 print("\n--- ACCESSING ELEMENTS ---")
@@ -26,6 +29,7 @@ print("Original numbers:", numbers)
 print("Slice [2:6]:", numbers[2:6])      # [2, 3, 4, 5]
 print("Every 2nd item:", numbers[::2])   # [0, 2, 4, 6, 8]
 print("Reverse list:", numbers[::-1])    # [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+
 
 # 4. Modifying Lists
 print("\n--- MODIFYING LISTS ---")
@@ -78,6 +82,12 @@ numbers.sort()                         # Sorts in place
 print("After sort():", numbers)
 numbers.reverse()                      # Reverses in place
 print("After reverse():", numbers)
+
+
+# use of sorted() function to reverse a list
+# Use sorted() to reverse a list
+reversed_list = sorted(numbers, reverse=True)
+
 
 # 8. List Membership
 print("\n--- LIST MEMBERSHIP ---")
@@ -147,3 +157,5 @@ def common_elements(list1, list2):
 fruits1 = ["apple", "banana", "cherry", "orange"]
 fruits2 = ["banana", "kiwi", "orange", "pear"]
 print("\nCommon fruits:", common_elements(fruits1, fruits2))  # ['banana', 'orange']
+
+

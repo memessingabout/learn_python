@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="42375f2e-b61e-45c3-91b6-35617a3edda8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Roadmap_learning/day_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Roadmap_learning/day_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roadmap_learning/day_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Roadmap_learning/day_9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soln.py" beforeDir="false" afterPath="$PROJECT_DIR$/soln.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;n-cognto&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/n-cognto/learn_python.git&quot;,
+    &quot;accountId&quot;: &quot;f0a21d56-573a-4c20-98c2-58b51c0bc4eb&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2y2i8XjsDVi3yNHqjhHJok3Aaky" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/ncognto/Documents/university-research/research_portal"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-348a24fa61fa-5312c7369657-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.23774.444" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42375f2e-b61e-45c3-91b6-35617a3edda8" name="Changes" comment="" />
+      <created>1749038912111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749038912111</updated>
+    </task>
+    <servers />
+  </component>
+</project>

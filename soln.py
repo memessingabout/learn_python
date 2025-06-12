@@ -1,22 +1,22 @@
+# create user
+# username, email, password
 
-# nums = [1,1,2,3,4,5,6,6,6,7,7,8,9,]
+if username == "":
+    print("Username cannot be empty")
+    if email == "":
+        print("Email cannot be empty")
+        if password == "":
+            print("Password cannot be empty")
 
-# Remove duplicates using set
-# unique_nums = set(nums)
+            # Logic to create user
 
-# two pointers technique
-# def remove_duplicates(nums):
-#     if not nums:
-#         return "The list is empty"
-#         break
-    
-    
-nums = []
+# Guarded clauses - early return conditions
+if not username:
+    print("Username cannot be empty")
+if not email:
+    print("Email cannot be empty")
+if not password:    
+    print("Password cannot be empty")
+     # Exit early if any field is empty
 
-def check_return(nums):
-    if not nums:
-        print("The list is empty")
-
-check_return(nums)
-print(val_ue)
-
+# Logic to create user
