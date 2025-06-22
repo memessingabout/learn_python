@@ -105,14 +105,16 @@ The secret to professional collaboration:
 3. **Protected Branches**: Prevent direct pushes to main
 4. **Merge Strategies**: Choose how to combine code changes
 
-Basic PR Workflow:
+## Basic PR Workflow
 
-1. Create a branch: `git checkout -b feature-name`
-2. Make changes and commit: `git commit -m "Add feature"`
-3. Push to GitHub: `git push origin feature-name`
-4. Open Pull Request on GitHub
-5. Address review comments
-6. Merge when approved
+1. **Create a branch**: `git checkout -b feature-name`
+2. **Make your changes** (edit files, add features, fix bugs)
+3. **Stage changes**: `git add .` (or `git add specific-file.txt`)
+4. **Commit changes**: `git commit -m "Add feature"`
+5. **Push to GitHub**: `git push origin feature-name`
+6. **Open Pull Request** on GitHub
+7. **Address review comments** (if any)
+8. **Merge when approved**
 
 ## 🏁 What to Do Next?
 
