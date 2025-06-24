@@ -38,7 +38,7 @@ print(f"x = {x} (binary: {bin(x)})")
 print(f"y = {y} (binary: {bin(y)})")
 
 print(f"x & y (AND): {x & y} (binary: {bin(x & y)})")  # 8
-print(f"x | y (OR): {x | y} (binary: {bin(x | y)})")   # 12
+ 
 print(f"x ^ y (XOR): {x ^ y} (binary: {bin(x ^ y)})")  # 4
 print(f"~x (NOT): {~x} (binary: {bin(~x & 0xFF)})")    # -13
 print(f"x << 2 (Left Shift): {x << 2} (binary: {bin(x << 2)})")  # 48
