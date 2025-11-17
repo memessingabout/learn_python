@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>100 Days of Modern Python Web Dev & AI/ML Intro - Starting Nov 17, 2025</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; background: #f4f4f9; }
+  h1, h2 { text-align: center; }
+  table { width: 100%; border-collapse: collapse; margin: 20px 0; background: white; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+  th, td { border: 1px solid #ccc; padding: 12px; text-align: left; }
+  th { background: #007acc; color: white; }
+  .day-passed { background: #e0f7fa; }
+  .completed { background: #c8e6c9; }
+  .week-test { background: #fff3e0; font-weight: bold; }
+  details { margin: 15px 0; cursor: pointer; }
+  summary { font-weight: bold; padding: 10px; background: #007acc; color: white; border-radius: 5px; }
+  ul { padding-left: 20px; }
+  a { color: #007acc; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .motivation { font-style: italic; color: #555; text-align: center; margin: 10px 0; }
+</style>
+</head>
+<body>
+<h1>100 Days of Modern Python Web Dev & AI/ML Intro</h1>
+<p><strong>Start:</strong> November 17, 2025 | <strong>End:</strong> February 25, 2026<br>
+<strong>Daily goal:</strong> ≥3 hours focused study/building<br>
+<strong>Current time (EAT):</strong> <span id="clock"></span><br>
+<strong>Tip:</strong> Host on GitHub Pages for easy sharing—commit daily!</p>
+
+<table id="tracker">
+  <thead>
+    <tr>
+      <th>Day</th>
+      <th>Date</th>
+      <th>Main Topic & Resources</th>
+      <th>Day Passed (auto, locked)</th>
+      <th>Learning Done ≥3h (manual)</th>
+      <th>Streak</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<h2>Curriculum Overview (Click to expand) + Cert Recommendations</h2>
+<p class="motivation">Week 1 Motivation: Small daily wins compound—your first web route today could power tomorrow's AI app. Track certs for resume gold!</p>
+
+<details>
+<summary>Days 1-20: Python Foundations Refresh (Web-Focused) + Cert: PCAP (Python Institute, $295 paid, entry-level hiring boost)</summary>
+<ul>
+  <li>Days 1-3: Variables, types, strings + <a href="https://www.coursera.org/learn/python">Coursera Python for Everybody (free audit)</a></li>
+  <li>Days 4-6: Lists, loops, functions + <a href="https://www.freecodecamp.org/learn/scientific-computing-with-python/">freeCodeCamp Python (free)</a></li>
+  <li>Day 7: Weekly Test 1 + Review</li>
+  <li>Days 8-10: Dicts, sets, file I/O + <a href="https://docs.python.org/3/tutorial/">Official Python Tutorial (free)</a></li>
+  <li>Days 11-13: OOP, exceptions + <a href="https://www.udemy.com/course/complete-python-bootcamp/">Udemy 100 Days Python ($15 paid, cert)</a></li>
+  <li>Day 14: Weekly Test 2</li>
+  <li>Days 15-20: Modules, virtual envs, Git + <a href="https://git-scm.com/book/en/v2">Git Book (free)</a>; Cert prep: PCAP practice</li>
+</ul>
+</details>
+
+<details>
+<summary>Days 21-40: Intro to Modern Web Dev with Flask + Cert: Google IT Automation (Coursera, $49/mo, web scripting focus)</summary>
+<ul>
+  <li>Days 21-23: Flask basics, routes, templates + <a href="https://flask.palletsprojects.com/en/stable/tutorial/">Official Flask Tutorial (free)</a></li>
+  <li>Day 28: Weekly Test 3</li>
+  <li>Days 29-32: Forms, sessions, error handling + <a href="https://www.youtube.com/watch?v=Z1RJmh_OqeA">freeCodeCamp Flask (free)</a></li>
+  <li>Days 33-36: Database integration (SQLite) + <a href="https://www.udemy.com/course/python-and-flask-bootcamp-create-a-web-application/">Udemy Flask Bootcamp ($15 paid)</a></li>
+  <li>Day 35: Weekly Test 4</li>
+  <li>Days 37-40: Deploy to Heroku/Render + Cert prep: Build a simple blog app</li>
+</ul>
+<p class="motivation">You're building real web apps now—deploy one by Day 40 and share on GitHub. Certs like Google's prove automation skills for dev jobs.</p>
+</details>
+
+<details>
+<summary>Days 41-60: Advanced Web with Django & FastAPI + Cert: Django Specialization (Coursera, $49/mo, portfolio-ready)</summary>
+<ul>
+  <li>Days 41-44: Django models, views, URLs + <a href="https://docs.djangoproject.com/en/stable/intro/tutorial01/">Official Django Tutorial (free)</a></li>
+  <li>Day 49: Weekly Test 5</li>
+  <li>Days 45-48: Admin, auth, templates + <a href="https://www.udemy.com/course/python-django-the-practical-guide/">Udemy Django ($15 paid)</a></li>
+  <li>Days 51-54: FastAPI for APIs, async + <a href="https://fastapi.tiangolo.com/tutorial/">Official FastAPI Tutorial (free)</a></li>
+  <li>Day 56: Weekly Test 6</li>
+  <li>Days 55-60: REST APIs, testing, deploy + <a href="https://www.coursera.org/specializations/django">Coursera Django (paid cert)</a>; Project: API for a task tracker</li>
+</ul>
+<p class="motivation">Midway milestone: A full-stack API by Day 60. Django/FastAPI certs shine in hiring—80% of Python web jobs list them.</p>
+</details>
+
+<details>
+<summary>Days 61-80: AI/ML Intro - Data Basics + Cert: IBM AI Foundations (Coursera, free audit/$49 cert, ML hiring edge)</summary>
+<ul>
+  <li>Days 61-64: NumPy, Pandas basics + <a href="https://www.coursera.org/learn/python-machine-learning">Coursera Python ML (free audit)</a></li>
+  <li>Day 70: Weekly Test 7</li>
+  <li>Days 65-68: Data viz (Matplotlib/Seaborn) + <a href="https://www.datacamp.com/courses/intro-to-python-for-data-science">DataCamp Intro (free)</a></li>
+  <li>Days 71-74: EDA, cleaning datasets + <a href="https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/">Udemy Data Science Bootcamp ($15 paid)</a></li>
+  <li>Day 77: Weekly Test 8</li>
+  <li>Days 75-80: Scikit-learn basics (regression/classification) + Cert prep: Simple prediction project</li>
+</ul>
+<p class="motivation">AI spark: Turn web data into insights. IBM cert adds ML credibility—pair with your web portfolio for hybrid roles.</p>
+</details>
+
+<details>
+<summary>Days 81-100: ML Models & Web Integration + Capstone + Cert: Google Data Analytics (Coursera, $49/mo, data/ML cert for jobs)</summary>
+<ul>
+  <li>Days 81-84: Supervised/unsupervised learning + <a href="https://www.coursera.org/learn/machine-learning">Andrew Ng ML (free audit)</a></li>
+  <li>Day 84: Weekly Test 9</li>
+  <li>Days 85-88: Model eval, overfitting + <a href="https://www.fast.ai/">fast.ai Practical DL (free)</a></li>
+  <li>Days 89-92: Intro to neural nets (TensorFlow basics) + <a href="https://www.udemy.com/course/deep-learning-a-z/">Udemy Deep Learning ($15 paid)</a></li>
+  <li>Day 91: Weekly Test 10</li>
+  <li>Days 93-97: Integrate ML into web (e.g., Flask + Scikit API) + Project: ML-powered web recommender</li>
+  <li>Day 98: Weekly Test 11</li>
+  <li>Days 99-100: Final review, deploy capstone, cert exams + Celebration! Path decision: Web full-stack or AI deep-dive?</li>
+</ul>
+<p class="motivation">Finish strong: Your capstone ties web + AI. Google's cert validates data skills—update LinkedIn for recruiter pings. Beyond 100: Extend to LLMs or cloud ML!</p>
+</details>
+
+<script>
+// Start date
+const startDate = new Date('2025-11-17T00:00:00+03:00'); // EAT
+const endDate = new Date(startDate);
+endDate.setDate(startDate.getDate() + 99);
+
+// Full topics with embedded links (abbreviated for script; expand as needed)
+const fullTopics = [
+  // Days 1-20: Foundations
+  "Day 1: Setup, print, variables + <a href='https://www.coursera.org/learn/python'>Coursera Python (free)</a>",
+  "Day 2: Strings, formatting + <a href='https://www.freecodecamp.org/learn/scientific-computing-with-python/'>freeCodeCamp (free)</a>",
+  "Day 3: Numbers, conversion + Official Docs (free)",
+  "Day 4: Lists & methods + Udemy Python ($15)",
+  "Day 5: Slicing, comprehensions",
+  "Day 6: Tuples",
+  "Day 7: Weekly Test 1",
+  "Day 8: If/else, booleans",
+  "Day 9: For loops, range",
+  "Day 10: While loops",
+  "Day 11: Nested loops",
+  "Day 12: Functions basics",
+  "Day 13: Params, return",
+  "Day 14: Weekly Test 2",
+  "Day 15: Args, kwargs, scope",
+  "Day 16: Dicts basics",
+  "Day 17: Dict methods",
+  "Day 18: Sets",
+  "Day 19: Lambda, map/filter",
+  "Day 20: Modules, Git + <a href='https://git-scm.com/book/en/v2'>Git Book (free)</a>",
+  // Days 21-40: Flask
+  "Day 21: Flask install, routes + <a href='https://flask.palletsprojects.com/en/stable/tutorial/'>Flask Tutorial (free)</a>",
+  // ... (Continue pattern; script generates 100)
+  // For full 100, loop fills with web/ML topics + links
+];
+
+for (let i = 20; i < 100; i++) {
+  // Placeholder for remaining; in real, expand with specific links
+  fullTopics[i] = `Day ${i+1}: ${i < 40 ? 'Flask advanced' : i < 60 ? 'Django/FastAPI' : i < 80 ? 'NumPy/Pandas EDA' : 'ML models + integration'}`;
+}
+
+const tbody = document.querySelector('#tracker tbody');
+const now = new Date();
+
+function updateClock() {
+  const now = new Date();
+  document.getElementById('clock').textContent = now.toLocaleString('en-KE', { timeZone: 'Africa/Nairobi' });
+}
+setInterval(updateClock, 1000);
+updateClock();
+
+for (let i = 0; i < 100; i++) {
+  const dayDate = new Date(startDate);
+  dayDate.setDate(startDate.getDate() + i);
+
+  const row = document.createElement('tr');
+  row.innerHTML = `
+    <td><strong>Day ${i+1}</strong></td>
+    <td>${dayDate.toLocaleDateString('en-GB')}</td>
+    <td>${fullTopics[i]}</td>
+    <td class="center"><input type="checkbox" id="passed${i}" disabled></td>
+    <td class="center"><input type="checkbox" id="done${i}"></td>
+    <td class="streak" id="streak${i}">-</td>
+  `;
+  tbody.appendChild(row);
+
+  // Load saved state
+  const passedKey = `pythonwebai_passed_${i}`;
+  const doneKey = `pythonwebai_done_${i}`;
+  if (localStorage.getItem(passedKey) === 'true') document.getElementById(`passed${i}`).checked = true;
+  if (localStorage.getItem(doneKey) === 'true') document.getElementById(`done${i}`).checked = true;
+
+  // Auto-check "Day Passed" at 22:00 EAT (locked)
+  const dayEnd = new Date(dayDate);
+  dayEnd.setHours(22, 0, 0, 0);
+  if (now > dayEnd) {
+    document.getElementById(`passed${i}`).checked = true;
+    localStorage.setItem(passedKey, 'true');
+  }
+
+  // Manual learning checkbox
+  document.getElementById(`done${i}`).addEventListener('change', function() {
+    localStorage.setItem(doneKey, this.checked);
+    updateStreak();
+  });
+}
+
+// Auto-refresh for checks every minute
+setInterval(() => { location.reload(); }, 60000);
+
+function updateStreak() {
+  let streak = 0;
+  for (let i = 0; i < 100; i++) {
+    const done = localStorage.getItem(`pythonwebai_done_${i}`) === 'true';
+    if (done) streak++;
+    else streak = 0;
+    document.getElementById(`streak${i}`).textContent = streak;
+  }
+}
+updateStreak();
+</script>
+<p><strong>How to Use & Host:</strong><br>
+1. Save as HTML, open in browser.<br>
+2. Upload to GitHub repo → Enable Pages for live link.<br>
+3. Study linked resources (free first, paid for certs).<br>
+4. Check "Learning Done" post-3hrs; auto-pass locks at 10PM.<br>
+Progress saves locally—backup via Git commits!</p>
+
+<p style="text-align:center;font-size:1.5em;margin-top:40px;">
+Day 1 awaits: Refresh Python, build your first route. Commit to GitHub tonight. Future you (Feb 2026) thanks you! 🐍🌐🤖
+</p>
+</body>
+</html>
